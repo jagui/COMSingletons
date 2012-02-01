@@ -11,10 +11,10 @@ namespace COMSingletons
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calling Singleton From Managed");
-            Singleton.Instance.CallOnce();
             Console.WriteLine("Calling Singleton From Unmanaged");
             Init();
+            Console.WriteLine("Calling Singleton From Managed");
+            Singleton.Instance.CallOnce();
             Console.ReadLine();
         }
 
