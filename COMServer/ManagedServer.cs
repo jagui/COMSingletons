@@ -16,7 +16,6 @@ namespace COMServer
 
     [Guid("9E9E5403-7993-49ED-BAFA-FD9A63A837E3")]
     [ComVisible(true)]
-    [ClassInterface(ClassInterfaceType.None)]
     public class ManagedServer: IComServer
     {
         private readonly Singleton _singleton;
