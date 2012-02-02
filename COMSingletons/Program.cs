@@ -18,7 +18,7 @@ namespace COMSingletons
             Console.ReadLine();
         }
 
-        [DllImport("NativeLibrary.dll", EntryPoint = "?Init@Native@@SAXXZ")]
+        [DllImport("NativeLibrary.dll")]
         private static extern void Init();
     }
 }
